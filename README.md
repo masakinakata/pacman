@@ -7,6 +7,8 @@ java : version 8以上であり, javafxがインストールされているこ�
 javac *.java
 java Main
 ~~~
+Windowsでの使用の場合は日本語含まれているため文字コードによるコンパイルが起きることがあります.その際はUTF-8からShift-JISにして再度コンパイルしてみてください.
+
 ## host
 このpacmanはサーバーとなるhostがあります. host起動してからstageを選択してconnectして下さい.
 
